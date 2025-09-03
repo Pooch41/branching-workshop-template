@@ -1,6 +1,6 @@
-
-def square_meters_to_square_kilometers(meter):
-    return meter / 1000
+M_IN_KM = 1000
 
 
-print(square_meters_to_square_kilometers(5000))
+def square_meters_to_square_kilometers(meters):
+    """takes meters (int/float) and returns kilometers (float)"""
+    return meters / (M_IN_KM ** 2)
